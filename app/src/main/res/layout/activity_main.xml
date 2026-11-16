@@ -121,14 +121,12 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <!-- Contenedor del gráfico de barras -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:orientation="vertical">
 
-                <!-- Barra Valencia -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -162,7 +160,6 @@
                         android:textSize="16sp" />
                 </LinearLayout>
 
-                <!-- Barra Madrid -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -196,7 +193,6 @@
                         android:textSize="16sp" />
                 </LinearLayout>
 
-                <!-- Barra Alicante -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -229,7 +225,6 @@
                         android:text="0"
                         android:textSize="16sp" />
                 </LinearLayout>
-                <!-- Barra Barcelona -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -273,7 +268,6 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <!-- Contenedor dinámico donde se cargarán las ofertas filtradas -->
             <LinearLayout
                 android:id="@+id/contenedorOfertas"
                 android:layout_width="match_parent"
